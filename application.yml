@@ -1,6 +1,3 @@
-server:
-   port: 4001
- spring: 
-   profiles: dev
-   application:
-     name: z-guide-config-dev
+spring: 
+   profiles: 
+     active: dev

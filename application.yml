@@ -1,5 +1,5 @@
 spring: 
    profiles: 
      active: dev
- server:
+server:
   port: 20003

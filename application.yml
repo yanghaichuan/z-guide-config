@@ -8,5 +8,4 @@ spring:
    profiles: dev
    application:
      name: z-guide-config-dev
-   
-   
+---

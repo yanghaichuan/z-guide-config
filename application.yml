@@ -1,9 +1,11 @@
 server:
   profiles:
     active: dev
+---
 server:
   port: 20000
 spring:
   profiles: dev
   application:
     name: z-guide-config
+ ---

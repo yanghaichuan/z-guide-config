@@ -1,6 +1,9 @@
 spring: 
    profiles: 
-     active: dev
+     active: prod
+---
+spring: 
+   profiles: 
    application:
      name: z-guide-config-dev
 server:
@@ -8,8 +11,7 @@ server:
 ---
 spring: 
    profiles: 
-     active: prod
    application:
      name: z-guide-config-prod
 server:
-  port: 20003
+  port: 20004

@@ -5,3 +5,11 @@ spring:
      name: z-guide-config-dev
 server:
   port: 20003
+---
+spring: 
+   profiles: 
+     active: prod
+   application:
+     name: z-guide-config-prod
+server:
+  port: 20003

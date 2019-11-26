@@ -3,7 +3,7 @@ spring:
     active: dev
 datasource:
   type: com.alibaba.druid.pool.DruidDataSource
-  url: jdbc:mysql://127.0.0.1:3306/zvos_app_device_db?useSSL=false&characterEncoding=utf8
+  url: jdbc:mysql://127.0.0.1:3306/z_guide_user?useSSL=false&characterEncoding=utf8
   username: yhc_db
   password: 123456
   druid:

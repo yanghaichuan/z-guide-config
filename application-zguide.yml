@@ -6,6 +6,7 @@ datasource:
   url: jdbc:mysql://127.0.0.1:3306/z_guide_user?useSSL=false&characterEncoding=utf8
   username: yhc_db
   password: 123456
+  driver-class-name: com.mysql.jdbc.Driver
   druid:
     initial-size: 5
     min-idle: 5

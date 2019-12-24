@@ -27,4 +27,4 @@ pagehelper:
     support-methods-arguments: true
     params: count=countSql
 config:
-  hello: i m kafka 66
+  hello: i m kafka 55

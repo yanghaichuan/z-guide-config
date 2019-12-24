@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: dev
   datasource:
       type: com.alibaba.druid.pool.DruidDataSource
       url: jdbc:mysql://127.0.0.1:3306/z_guide_user?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=UTC
@@ -24,3 +26,5 @@ pagehelper:
     reasonable: true
     support-methods-arguments: true
     params: count=countSql
+config:
+  hello: i m kafka
